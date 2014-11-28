@@ -59,7 +59,7 @@ public class InputGenerator {
 	 * @throws IOException 
 	 */
 	public static void main(String[] args) throws IOException {
-		int count = 100;
+		int count = 0;
 		do {
 			count = count + 100;
 			generateInput(NUM_FILES_PER_LOT, count);
